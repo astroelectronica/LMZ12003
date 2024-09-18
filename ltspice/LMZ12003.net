@@ -8,7 +8,7 @@
 .include LMZ12003.cir
 *
 *params
-.param VIN=9
+.param VIN=20 rser=50
 .param RON=32.4k
 .param RENT=32.4k
 .param RENB=11.8k
@@ -17,7 +17,7 @@
 .param RLOAD=0.6
 *
 *transient response
-.tran 0 .4m 0 ;startup ;uic
+.tran 0 .2m 0 ;startup ;uic
 *
 *.backanno
 *.op
